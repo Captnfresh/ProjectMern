@@ -152,8 +152,10 @@ Now, you're connected to your ec2 instance via ssh
 7. Initialize the project so that a new file *package.json* will be created. This file will normally contain information about application and the dependencies that it needs to run:
 
    `npm init`
+   
 
-   ![image 5](hhttps://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%205.jpg)
+   ![image 5](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%205.jpg)
+   
 
 
 ## Step 4 - Install ExpressJS
@@ -203,18 +205,18 @@ Now, you're connected to your ec2 instance via ssh
 
    `node index.js`
 
-   ![image 6](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 6](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%206.jpg)
 
 6. Navigate to your ec2 security group and edit inbound security group access. Allow TCP Custom network on Port 5000 from anywhere
 
-   ![image 7](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 7](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%207.jpg)
 
 
 
    You can view the latest web page from your local browser using http://(your public ip address):5000
 
 
-   ![image 8](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 8](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%208.jpg)
 
 7. Creating Route: There are three actions that our To-Do application needs to be able to do:
 
@@ -315,18 +317,18 @@ Now, you're connected to your ec2 instance via ssh
 
    ```
 
-   ![image 9](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 9](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%209.jpg)
 
 
 ## Step 6 - Configure MongoDB database
 
 1. Navigate to mlabs to create a MongoDB database and collection there.
 
-   ![image 10](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 10](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2010.jpg)
 
-   ![image 11](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 11]( https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2011.jpg)
 
-   ![image 12](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 12](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2012.jpg)
 
 
 2. Navigate to your Todo directory and create a .env file
@@ -387,7 +389,7 @@ Now, you're connected to your ec2 instance via ssh
    `node index.js`
 
 
-   ![image 13](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 13](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2013.jpg)
 
 
 
@@ -428,13 +430,13 @@ Since we are done with the functionality we want from our backend and API, it is
 
    `npm run dev`
 
-   ![image 14](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 14](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2014.jpg)
 
-   ![image 15](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 15](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2015.jpg)
    
    Remember, In order to be able to access the application from the inyternet, you have to open port 5173
 
-   ![image 16](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
+   ![image 16](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2016.jpg)
 
 
 
@@ -758,7 +760,40 @@ Creating your React Components One of the advantages of react is that it makes u
 
     `npm run dev`
 
-    
+   ![image 17](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%2017.jpg)
+
+
+## Some of the challenges faced and how it was solved
+
+1.   After running `npm run dev` in Todo directory, I got this error and solved it with this addition
+  
+     ![error 4](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/error%204.jpg)
+
+
+
+     ![solution 4](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/solution%204.jpg)
+
+
+2.  Network error occured and was solved in that manner
+  
+  
+    ![error 5](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/error%205.jpg)
+
+
+    ![solution 5](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/solution%205.jpg)
+
+
+
+## Conclusion
+
+1.The project effectively created a web solution in the AWS Cloud environment with the MERN stack, which combines Node.js, ExpressJS, ReactJS, and MongoDB for effective frontend and backend capabilities.
+
+2. In order to demonstrate the importance of server-side and client-side frameworks like Node.js with Express.js, React.js, and others in backend logic, user interactions, and UI management, the project dug into these areas.
+
+3. An organized approach to application deployment was demonstrated by the deployment of a To-Do application on an EC2 server in the Mumbai Region and the careful setup of Node.js with the required packages.
+
+4. From setting up the server and routes, constructing MongoDB models, to testing backend functionalities using Postman, the project meticulously addressed many elements of backend development.
+
 
 
 
