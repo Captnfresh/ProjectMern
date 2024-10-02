@@ -390,7 +390,39 @@ Now, you're connected to your ec2 instance via ssh
    image 13
 
 
-      
+
+## Step 7 - Frontend creation
+
+Since we are done with the functionality we want from our backend and API, it is time to create a user interface for a Web client (browser) to interact with the application via API. To start out with the frontend of the To-do app, we will use the create-react-app command to scaffold our app.
+
+1. In the same root directory as your backend code, which is the Todo directory, run:
+
+   `npx create-react app client`
+
+2. Before testing the react app, there are some dependencies that needs to be installed:
+
+   `npm install concurrently --save-dev`
+
+   It is used to run more than one command simultaneously from the same terminal window
+
+   `npm install nodemon --save-dev`
+
+   It is used to run and monitor the server
+
+3. In Todo folder open the package.json file. Change the part replace with the code below.
+
+   ```   
+      "scripts": {
+        "start": "node index.js",
+        "start-watch": "nodemon index.js",
+        "dev": "concurrently \"npm run start-watch\" \"cd client && npm start\""
+      }
+    ```     
+
+4. 
+
+
+
 
 
 
