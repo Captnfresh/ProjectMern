@@ -88,7 +88,7 @@ Here’s a step-by-step guide on how to set up a LAMP stack (Linux, Apache, MySQ
 3. Select a region close to you and launch an instance of t2.micro family with Linux ubuntu server.
 4. Create a new .pem priavte key(If you don't have one already) and save it securely.
 
-  image 1
+   ![image 1](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
    
 5. Configure your security groups by ensuring that the following ports are allowed:
 
@@ -96,7 +96,7 @@ Here’s a step-by-step guide on how to set up a LAMP stack (Linux, Apache, MySQ
    
    HTTP (port 80) – for web traffic
 
-   image 2
+   ![image 2](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%202.jpg)
 
 
 ## Step 2 - Connect to the ec2 instance via ssh
@@ -112,7 +112,7 @@ Here’s a step-by-step guide on how to set up a LAMP stack (Linux, Apache, MySQ
  
 Now, you're connected to your ec2 instance via ssh    
 
-   image 3
+   ![image 3](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%203.jpg)
 
 
 ## Step 3 - Backend Configuration
@@ -140,7 +140,7 @@ Now, you're connected to your ec2 instance via ssh
 
    `npm -v`
 
-   image 4
+   ![image 4](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%204.jpg)
 
 6. Setup Application code by creating a new directory for your new project. In this case, we will be using "Todo" as  the name of the directory
 
@@ -153,7 +153,7 @@ Now, you're connected to your ec2 instance via ssh
 
    `npm init`
 
-   image 5
+   ![image 5](hhttps://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%205.jpg)
 
 
 ## Step 4 - Install ExpressJS
@@ -203,18 +203,18 @@ Now, you're connected to your ec2 instance via ssh
 
    `node index.js`
 
-   image 6
+   ![image 6](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
 6. Navigate to your ec2 security group and edit inbound security group access. Allow TCP Custom network on Port 5000 from anywhere
 
-   image 7
+   ![image 7](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
 
 
    You can view the latest web page from your local browser using http://(your public ip address):5000
 
 
-   image 8
+   ![image 8](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
 7. Creating Route: There are three actions that our To-Do application needs to be able to do:
 
@@ -315,18 +315,18 @@ Now, you're connected to your ec2 instance via ssh
 
    ```
 
-   image 9
+   ![image 9](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
 
 ## Step 6 - Configure MongoDB database
 
 1. Navigate to mlabs to create a MongoDB database and collection there.
 
-   image 10
+   ![image 10](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
-   image 11
+   ![image 11](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
-   image 12
+   ![image 12](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
 
 2. Navigate to your Todo directory and create a .env file
@@ -387,7 +387,7 @@ Now, you're connected to your ec2 instance via ssh
    `node index.js`
 
 
-   image 13
+   ![image 13](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
 
 
@@ -428,13 +428,13 @@ Since we are done with the functionality we want from our backend and API, it is
 
    `npm run dev`
 
-   image 14
+   ![image 14](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
-   image 15
+   ![image 15](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
    
    Remember, In order to be able to access the application from the inyternet, you have to open port 5173
 
-   image 16
+   ![image 16](https://github.com/Captnfresh/ProjectMern/blob/main/ProjectMern/image%201.jpg)
 
 
 
@@ -756,7 +756,7 @@ Creating your React Components One of the advantages of react is that it makes u
 
 10. Navigate back root directory RUN:
 
-    `npm eun dev`
+    `npm run dev`
 
     
 
